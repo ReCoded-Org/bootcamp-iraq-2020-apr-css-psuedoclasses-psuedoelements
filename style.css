@@ -1,0 +1,24 @@
+p:hover{
+    color:purple;
+  }
+  input:required{
+    border-color:black;
+  }
+  input:checked{
+    margin:40px;
+  }
+  p:last-child{
+    font-size:30px;
+  }
+  p:nth-child(2),p::first-line{
+    font-weight:bold;
+  }
+  p:nth-child(odd)::first-letter {
+    font-size:40px;
+  }
+  p::after{
+    content: ":grin:";
+  }
+  ::selection {
+    background-color:gold;
+    color:red;
