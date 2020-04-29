@@ -1,0 +1,152 @@
+/* 1. When hover over paragraphs change text color to purple and bold */
+.paragraphs p:hover {
+    color: purple;
+    font-weight: bold;
+  }
+  
+  /* 2. Set a black border to every required input */
+  input:required {
+    border: solid 1px black;
+  }
+  
+  /* 3. Add 40px margin to checkbox only when it is checked */
+  input[type="checkbox"]:checked {
+    margin: 40px;
+  }
+  
+  /* 4. Make last paragraph to have 30px font-size */
+  .paragraphs p:last-child {
+    font-size: 30px;
+  }
+  
+  /* 5. Make first line of second paragraph bold */
+  .paragraphs p:nth-child(2):first-line {
+    font-weight: bold;
+  }
+  
+  /* 6. Make first letter of odd paragraphs 40px */
+  .paragraphs p:nth-child(odd):first-letter {
+    font-size: 40px;
+  }
+  
+  /* 7. Insert happy face emoji to end of each paragraph */
+  .paragraphs p::after {
+    content: "😃";
+    display: block;
+    margin: 5px auto;
+  }
+  
+  /* 8. When selecting text make background gold and text red */
+  .paragraphs p::selection {
+    background-color: gold;
+    color: red;
+  }
+  
+  /* Some extra styling */
+  
+  :root {
+    --bronze: #AC530F;
+  }
+  
+  main,
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 1s ease-out;
+    color: var(--bronze);
+  }
+  
+  form,
+  h2,
+  h1 {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    position: relative;
+    animation: bouncing-heading 0.9s ease-out;
+  }
+
+  @keyframes bouncing-heading {
+    0%   {top: -500px;}
+    50%  {top: 0px;}
+    75% {top: -10px}
+    100%  {top: 0px;}
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-width: 290px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    border: solid lightgrey 1.1px;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+  }
+
+  form:focus-within {
+    border-color: var(--bronze);
+    width: 40%;
+  }
+  
+  form .subscribe-part {
+    font-size: 1rem;
+  }
+  
+  form label {
+    margin: 5px auto;
+  }
+  
+  form input[type="text"] {
+    padding: 2px;
+  }
+  
+  form input:focus {
+    outline-color: lightblue;
+  }
+  
+  .paragraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .paragraphs p {
+    text-align: justify;
+    margin: 10px;
+    width: 40%;
+    animation: swiping-up 1.6s ease-out;
+  }
+
+  @keyframes swiping-up {
+    0% {
+      filter: blur(4px);
+      display: none;
+      transform: translate(0, 300px);
+    }
+    100% {
+      filter: blur(0);
+      display: block;
+      transform: translate(0, 0);
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .paragraphs p {
+      width: 80%;
+    }
+    .paragraphs p:last-child {
+      font-size: 1.3rem;
+    }
+  }
+  
+  
