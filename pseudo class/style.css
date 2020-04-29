@@ -1,0 +1,27 @@
+.para1:hover{
+    color:purple;
+    font-weight: bold;
+  }
+  input:required{
+  border:1px solid black;
+  }
+  
+  input:checked{
+    margin:40px;
+  }
+  p:last-child {
+   font-size:30px;
+  }
+  .para2::first-line{
+    font-weight:bold;
+  }
+  p:nth-child(odd)::first-letter{
+    font-size: 40px;
+  }
+  p::after{
+    content: "😊";
+  }
+  *::selection{
+    background-color: gold;
+    color:red;
+  }
