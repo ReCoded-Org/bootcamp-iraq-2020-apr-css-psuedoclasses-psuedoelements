@@ -1,0 +1,74 @@
+p:hover{
+    color:purple;
+    font-weight: bold;
+}
+
+input:required{
+    border: 3px solid black;
+}
+
+input[type="checkbox"]:checked{
+    margin: 40px;
+}
+
+p:last-child{
+    font-size: 30px;
+}
+
+p:nth-child(3):first-line{
+    font-weight: bolder;
+    color: red;
+}
+
+p:nth-child(odd)::first-letter{
+    font-size: 40px;
+}
+
+p::after{
+    content:":)";
+}
+
+p
+
+::selection{
+    background: gold;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
