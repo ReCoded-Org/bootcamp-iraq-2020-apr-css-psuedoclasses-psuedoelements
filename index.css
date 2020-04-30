@@ -24,9 +24,7 @@ body main p:hover{
  p:last-child{
      font-size: 30px;
  }
- p::after {
-    content:;
-  }
+
   #second-pargarph::first-line{
       font-weight: bold;
 
