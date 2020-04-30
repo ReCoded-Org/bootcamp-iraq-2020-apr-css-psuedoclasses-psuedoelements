@@ -1,0 +1,33 @@
+p:hover{
+    color: purple;
+    font-weight: bold;
+}
+
+input:required{
+    border: ipx solid black;
+}
+
+input[type="checkbox"]:checked{
+    margin: 40px;
+}
+
+p:last-child{
+    font-size: 30px;
+}
+
+p:nth-child(4)::first-line{
+    font-weight: bold;
+}
+
+p:nth-child(odd)::first-letter{
+    font-size: 40px;
+}
+
+p::after{
+    content: "😂";
+}
+
+::selection{
+    background-color: gold;
+    color: red;
+}
