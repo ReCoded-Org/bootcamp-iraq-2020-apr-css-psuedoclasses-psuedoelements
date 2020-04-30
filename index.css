@@ -1,0 +1,35 @@
+html,body{
+    margin: 0;
+
+}
+body:focus{
+    color: red;
+
+background-color:gold ;}
+p{
+    
+    font-size: medium;
+    font-family: cursive;
+}
+body main p:hover{
+    color:purple;
+    font-weight: bold;
+}
+ input:required{
+     border:2px solid black;
+ }
+ input:checked{
+     margin: 40px;
+ }
+ p:last-child{
+     font-size: 30px;
+ }
+
+  #second-pargarph::first-line{
+      font-weight: bold;
+
+  }
+.odd-classp::first-letter {
+    font: size 40px;;
+ 
+  }
