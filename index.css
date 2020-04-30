@@ -31,6 +31,7 @@ body main p:hover{
       font-weight: bold;
 
   }
-.odd-class::first-letter{
-    font-size:40px;
-}
+.odd-classp::first-letter {
+    font: size 40px;;
+ 
+  }
