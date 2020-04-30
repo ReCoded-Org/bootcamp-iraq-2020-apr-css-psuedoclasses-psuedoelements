@@ -1,0 +1,49 @@
+p:hover{
+    color:purple;
+    font-weight: bold;
+  }
+ 
+ input:required{
+   border: 2px solid black;
+ }
+ 
+ input[type="checkbox"]:checked
+ {
+   margin: 40px;
+ }
+ p:last-child{
+   font-size:30px;
+ }
+ 
+ main p:nth-child(3):first-line{
+ font-weight: bold;
+ }
+ 
+ p::after
+ {
+ content: "😊";
+ 
+ }
+ 
+ 
+ 
+ p:nth-child(odd):first-letter{
+   font-size:40px;
+ }
+ p::selection{
+   color:red;
+   background-color:gold;
+ }
+  
+ h1::selection{
+   color:red;
+   background-color:gold;
+ }
+ h2::selection{
+   color:red;
+   background-color:gold;
+ }
+ label::selection{
+   color:red;
+   background-color:gold;
+ }
