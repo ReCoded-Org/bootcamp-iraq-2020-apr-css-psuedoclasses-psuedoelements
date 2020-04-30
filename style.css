@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p:hover{
+    color: purple;
+    font-weight: bold;
+}
+input:required{
+    border: 1px solid black;
+}
+input:checked{
+    margin: 40px;
+}
+p:last-child{
+    font-size: 30px;
+}
+p:nth-child(4)::first-line{
+    font-weight: bold;
+}
+p:nth-child(odd)::first-letter{
+    font-size: 40px;
+}
+p::after{
+    content:"\01F60A";
+}
+p::selection{
+    background-color: gold;
+    color: red;
+}
