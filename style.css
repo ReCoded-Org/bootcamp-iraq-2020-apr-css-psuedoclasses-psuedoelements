@@ -1,0 +1,30 @@
+p:not(.form):hover{
+    color:purple;
+    font-weight: bold;
+  }
+  input:required{
+    border:solid black;
+  }
+  input:checked{
+    margin:40px;
+  }
+  p:last-child{
+    font-size:30px;
+  }
+  p:nth-child(odd)::first-letter{
+    font-size:40px;
+  }
+  
+  p::after{
+    content:" :-)"
+  }
+  
+   p:nth-of-type(3)::first-line{
+     font-weight: bold;
+   }
+  
+  ::selection {
+     color:red;
+     background-color: gold ;
+   
+  }
