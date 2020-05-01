@@ -1,0 +1,41 @@
+p:hover{
+    color:purple;
+    font-weight:bold;
+  }
+  
+  :required{
+    border: 1px solid black
+  }
+  
+  :checked{
+    margin :40px
+    
+  }
+  
+  p:last-child{
+    font-size:30px
+  }
+  
+  p:nth-child(4)::first-line{
+    font-weight:bold
+  }
+  
+  p:nth-child(odd):first-letter{
+    font-size:40px
+  }
+  
+  
+  p::selection {
+    color: red;
+    background-color:#E0D2B4
+  ;
+  } 
+  
+  
+  p:after{
+    
+   
+  }
+  
+  
+  
