@@ -1,0 +1,85 @@
+*{padding: 0;
+
+margin: 0;
+
+box-sizing: border-box;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+}
+
+body{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+h1{ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.p1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*    1    */
+
+p:hover {
+    color:purple;
+    font-weight: bold;
+  }
+
+/*    2    */
+
+  input:required{border: 2px solid black;}
+
+/*    3    */
+
+input:checked{margin: 40px;}
+
+/*    4    */
+p:last-child {
+    font-size: 30px;
+  }
+
+/*    5    */
+  p:nth-of-type(2)::first-line {
+    font-weight: bold;
+  }
+
+  /*    6    */
+  p:nth-child(odd)::first-letter{font-size: 40px;}
+
+  /*   7    */
+
+  p::after { 
+      content: '';
+      background:url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/openmoji/242/red-heart_2764.png');
+     width: 101px;
+      height:101px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 80%;
+
+      }
+
+/*    8    */ 
+
+     ::selection {
+        color: red;
+        background:gold;
+        background-color: gold;}
+        
