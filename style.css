@@ -1,0 +1,33 @@
+p:hover
+{
+    color:purple;
+    font-weight: bold;
+  }
+ input:required
+ {
+   border: 2px solid black;
+ }
+ input[type="checkbox"]:checked
+ {
+   margin: 40px;
+ }
+ p:last-child
+ {
+   font-size:30px;
+ }
+ p:nth-of-type(2):first-line
+ {
+ font-weight: bold;
+ }
+ p:nth-of-type(odd):first-letter
+ {
+font-size:40px;
+ }
+*::selection{
+   color:red;
+   background-color:gold;
+ }
+ p::after
+ {
+ content: "\01F60A";
+ }
