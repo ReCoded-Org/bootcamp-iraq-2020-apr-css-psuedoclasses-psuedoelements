@@ -65,14 +65,11 @@ p:last-child {
   /*   7    */
 
   p::after { 
-      content: '';
-      background:url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/openmoji/242/red-heart_2764.png');
-     width: 101px;
-      height:101px;
+      content: '😁';
       display:flex;
       justify-content: center;
       align-items: center;
-      opacity: 80%;
+      
 
       }
 
