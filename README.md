@@ -1,4 +1,7 @@
 # Psuedo-class & Psuedo-elements in-class activity
+A html and css exercise
+
+
 
 This code along is designed to help you practice writing CSS for a full page.
 
